@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .q{
+            height:80vh;
+            width:20vw;
+            border:3px solid black;
+            position: relative;
+            left:620px;
+            top:50px;
+            overflow-y: scroll;
+            background-image: linear-gradient(to bottom,navy,blue,skyblue);
+        }
+        .a1{
+            border:3px solid navy;
+            height:3vh;
+            width:12vh;
+            position: relative;
+            top:10px;
+            opacity: 0.5;
+            left: 105px;  
+        }
+        .a2{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px;
+          }
+        .a3{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:40px;
+            left: 240px;
+            border-top-left-radius: 15px; 
+        }
+        .a4{
+            border:3px solid navy;
+            height:3vh;
+            width:12vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a5{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:40px;
+            left: 240px;
+            border-top-left-radius: 15px; 
+        }
+        .a6{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:42px;
+            left: 210px;
+            border-bottom-left-radius: 15px; 
+        }
+        .a7{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:40px;
+            left: 20px;
+            border-bottom-right-radius: 15px;
+        }
+        .a8{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:cornflowerblue;
+            position: relative;
+            top:42px;
+            left: 20px;
+            border-top-right-radius: 15px;
+        }
+        .a9{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 210px;
+            border-top-left-radius: 15px; 
+        }
+        .a10{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            top:2px;
+            left: 210px;
+            border-bottom-left-radius: 15px; 
+        }
+        .a11{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a12{
+            border:3px solid navy;
+            height:3vh;
+            width:7vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 230px;
+            border-top-left-radius: 15px; 
+        }
+        .a13{
+           border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:2px;
+            border-bottom-left-radius: 15px;
+        }
+        .a14{
+            border:3px solid navy;
+            height:3vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a15{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a16{
+            border:3px solid navy;
+            height:3vh;
+            width:8vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a17{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a18{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a19{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a20{
+            border:3px solid navy;
+            height:5vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a21{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a22{
+            margin-left: auto;
+        }
+        .a23{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;   
+        }
+        .a24{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 210px;
+            top:4px;
+            border-bottom-left-radius: 15px;  
+        }
+        .a25{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a26{
+            border:3px solid navy;
+            height:3vh;
+            width:7vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:4px;
+            left: 20px;
+            border-top-right-radius: 15px; 
+        }
+        .a27{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px;
+        }
+        .a28{
+        border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;
+        }
+        .a30{
+            border:3px solid navy;
+            height:3vh;
+            width:10vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:4px;
+            left: 20px;
+            border-top-right-radius: 15px; 
+        }
+        .a29{
+            position: relative;
+            margin-top: 20px;
+        }
+        .a31{
+            border:3px solid navy;
+            height:3vh;
+            width:6vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 239px;
+            top:2px;
+            border-top-left-radius: 15px; 
+        }
+        .a32{
+            border:3px solid navy;
+            height:5vh;
+            width:14vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a33{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;  
+        }
+        .a34{
+            border:3px solid navy;
+            height:3vh;
+            width:5vh;
+            background-color:rgb(19, 71, 167);
+            position: relative;
+            top:2px;
+            left: 20px;
+            border-bottom-right-radius: 15px; 
+        }
+        .a35{
+            border:3px solid navy;
+            height:3vh;
+            width:16vh;
+            background-color:rgb(170, 11, 122);
+            position: relative;
+            left: 166px;
+            top:4px;
+            border-bottom-left-radius: 15px;   
+        }
+    </style>
+</head>
+<body><h1 style="color:rgb(133, 9, 34); font-size: 40px; font-style: oblique; text-decoration: double;" align="center">Whatsapp Chat</h1>
+    <div class="q">
+        <div class="a1 a"><p style="color:bisque; font-size: 15px;font-style:italic ; text-align: center; margin: auto;">Friday 9:00PM</p></div>
+        <div class="a2 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hi Priya</p></div>
+        <div class="a3 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hi</p></div>
+        <div class="a4 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">How r u</p></div>
+        <div class="a5 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Iam good</p></div>
+        <div class="a6 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">U</p></div>
+        <div class="a7 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Iam Fine</p></div>
+        <div class="a8 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">What r u dng?</p></div><br><br>
+        <p align="center" style="opacity: 0.5; font-style: italic; color:bisque"> Friday 11:02PM</p>
+        <div class="a9 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">M Ledu</p></div>
+        <div class="a10 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Cheppu</p></div>
+        <div class="a11 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align:start;">Tomorrow can we for shopping</p></div>
+        <div class="a12 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Sare</p></div>
+        <div class="a13 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Eppudu podham</p></div>
+        <div class="a14 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Mrng chepta</p></div>
+        <div class="a15 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ok</p></div>
+        <div class="a16 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hmm</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 9:14AM</p>
+        <div class="a17 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Hii</p></div>
+        <div class="a18 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">At what time</p></div>
+        <div class="a19 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">11:00 ki ala podam</p></div>
+        <div class="a20 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">Start ayyaka call chey</p></div>
+        <div class="a21 a"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ok</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 1:48PM</p>
+        <div class="a22"><video controls height="100px" width="80px">
+            <source src="../Assests/Videos/v1.mp4">
+        </video></div>
+        <div class="a23"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haha</p></div>
+        <div class="a24"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Thinnava</p></div>
+        <div class="a25"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <div class="a26"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Nuvvu?</p></div>
+        <div class="a27"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Yesterday 10:01PM</p>
+        <div class="a28"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Dress pic pettu</p></div>
+        <div class="a29"><img src="https://images.meesho.com/images/products/430409931/xskxh_512.jpg" height="150px" width="80px"></div>
+        <div class="a30"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ede kada</p></div>
+
+        <div class="a31"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ede le</p></div>
+        <p align="center" style="opacity: 0.7; font-style: italic; color:bisque"> Today 7:21AM </p>
+        <div class="a32"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto; text-align: left;">Vastunava Class ki</p></div>
+        <div class="a33"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">On the way</p></div>
+        <div class="a34"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Haa</p></div>
+        <div class="a35"><p style="color:bisque; font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; text-align: center; margin: auto;">Ekkada Unnav</p></div>
+    </div>
+    </body>
+</html>
